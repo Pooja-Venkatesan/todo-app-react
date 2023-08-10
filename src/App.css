@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
 }
 
 .App-logo {
@@ -14,18 +17,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+.todo-input, .todo-btn{
+  padding: 10px;
+
+}
+
+.taskList{
+  color:#fff;
+  margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
